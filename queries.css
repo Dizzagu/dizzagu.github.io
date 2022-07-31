@@ -1,0 +1,381 @@
+/* QUERIES HEADER */
+@media (max-width: 992px) {
+    .header{
+        height: 100%;
+    }
+    .texto-central h1{
+        font-size: 45px;
+    }
+    .formulario p {
+        font-size: 25px;
+    }
+    .input-form {
+        display: flex;
+        flex-direction: column;
+    }
+    .formulario input{
+        align-self: center;
+        width: 250px;
+    }
+    .formulario .btn {
+        align-self: center;
+        height: 40px;
+        width: 135px;
+        font-size: 1rem;
+        margin-top: 15px;
+        text-align: center;
+        line-height: normal;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar img {
+        width: 110px;
+    }
+    .select{
+        margin-right: 20px;
+    }
+    .submit{
+        margin-right: 30px;
+    }
+    .texto-central h3 {
+        width: auto;
+    }
+    .formulario p {
+        font-size: 18px;
+        width: auto;
+    }
+    .formulario input{
+        height: 45px;
+    }
+}
+
+@media (max-width: 700px){
+    .navbar img{
+        width: 90px;
+    }
+    .navbar .icon {
+        margin-right: 0;
+    }
+    .navbar .submit {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar img{
+        width: 90px;
+        margin-left: 15px;
+    }
+    .select{
+        height: 30px;
+        font-size: 15px;
+        padding: 0;
+        width: 100px;
+        margin-right: 10px;
+    }
+    .submit{
+        height: 30px;
+        font-size: 15px;
+        line-height: normal;
+        padding: 2px;
+        width: 100px;
+        margin-right: 0;
+    }
+    .texto-central{
+        margin-top: 90px;
+    }
+    .texto-central h1{
+        font-size: 30px;
+    }
+    .texto-central h3{
+        font-size: 18px;
+        text-align: center;
+    }
+    .formulario p{
+        font-size: 20px;
+        width: auto;
+    }
+    .formulario input{
+        min-width: auto;
+    }
+    .navbar .icon {
+        margin-right: 0px;
+    }
+    .navbar .icon svg{
+        margin-top: 8px;
+    }
+    .select{
+        padding: 6px 23px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar img{
+        margin-left: 50%;
+        margin-right: 50%;
+        margin: 0 auto;
+    }
+    .navbar .icon{  
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .navbar .submit {
+        margin: 0;
+        margin-top: 10px;
+    }
+}
+
+/* QUERIES SECCION SERVICIOS */
+/* 1 */
+@media (max-width: 1180px){
+    .textos{
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 1060px) {
+    #section{
+        flex-direction: column;
+    }
+    .textos{
+        margin: 0;
+        padding: 20px;
+        width: 100%;
+        z-index: 2;
+    }
+    .textos h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    .textos h2{
+        font-size: 20px;
+        text-align: center;
+    }
+    .media{
+        bottom: 70px;
+        z-index: 1;
+        margin-left: 50%;
+        margin-right: 46.5%;
+    }
+}
+
+@media (max-width: 880px) {
+    #section {
+        height: auto;
+    }
+    .textos h2{
+        padding: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    #section{
+        overflow: hidden;
+    }
+    .textos h1{
+        font-size: 30px;
+    }
+    .textos h2{
+        font-size: 18px;
+    }
+    .media {
+        left: 12px;
+    }
+    .media img{
+        width: 350px;
+    }
+    .media video{
+        width: 255px;
+        top:55px;
+        left: 45px;
+    }
+}
+
+/* 2 */
+@media (max-width: 1060px){
+    .section-2{
+        margin-bottom: 80px;
+    }
+    .textos-2{
+        order: 1;
+    }
+    .media-2{
+        order: 2;
+    }
+}
+
+@media (max-width: 1010px){
+    .media-2{
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 880px) {
+    .section-2 {
+        margin-bottom: 0px;
+    }
+    .media-2{
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 700px) {
+    .download img{
+        width: 90%;
+        margin-left: 10px;
+    }
+    .download p{
+        margin-left: 20px;
+    }
+    .download .p1{
+        font-size: 16px;
+    }
+    .download .p2{
+        font-size: 12px;
+    }
+    .download .gif{
+        right: 20px;
+    }
+}
+
+/* 3 */
+@media (max-width: 940px){
+    .section-3{
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 880px){
+    .section-3{
+        margin-bottom: -60px;
+    }
+}
+
+@media (max-width: 700px){
+    .media-3 {
+        width: auto;
+    }
+    .media-3 img{
+        width: 500px;
+    }
+}
+
+@media (max-width: 480px) {
+    .media-3 img{
+        width: 400px;
+    }
+    .media .video2 { 
+        width: 245px;
+        top: 25px;
+        left: 76px;   
+    }
+    .formulario p {
+        padding-top: 30px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 300px) {
+    .media-3 img{
+        width: 300px;
+    }
+    .media .video2 { 
+        width: 190px;
+        top: 25px;
+        left: 50px;   
+    }
+    .formulario p {
+        padding-top: 30px;
+        padding: 20px;
+    }
+}
+
+/* 4 */
+@media (max-width: 1060px){
+    .textos-4{
+        order: 1;
+    }
+    .textos-4 h2{
+        padding: 0 20px;
+    }
+    .media-4 img{
+        margin-top: 80px;
+        width: 350px;
+    }
+}
+
+
+/* QUERIES FAQ */
+@media (max-width: 1000px){
+    .faq h1{
+        font-size: 50px;
+    }
+    .preguntas {
+        max-width: 690px;
+    }
+}
+
+@media (max-width: 900px) {
+    .faq h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .preguntas {
+        max-width: 730px;
+    }
+    .pregunta{
+        font-size: 20px;
+    }
+    .pregunta .enunciado{
+        padding: 15px 20px;
+    }
+    .pregunta svg{
+        top: 22px;
+    }
+}
+
+@media (max-width: 550px){
+    .faq{
+        padding: 50px 0;
+    }
+    .faq h1{
+        font-size: 25px;
+    }
+    .preguntas{
+        width: 100%;
+    }
+    .pregunta .enunciado{
+        padding: 10px 20px;
+    }
+    .pregunta svg{
+        top: 18px;
+    }
+}
+
+/* QUERIES FOOTER */
+@media (max-width: 800px){
+    .footer-wrapper {
+        padding-left: 0;
+    }
+    .site-footer ul {
+        column-count: 3;
+    }
+    .site-footer li {
+        padding-left: 10px;
+    } 
+}
+
+@media (max-width: 550px) {
+    .site-footer ul {
+        column-count: 2;
+    }
+}

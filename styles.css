@@ -1,0 +1,417 @@
+/* ESTILOS GENERALES */
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+/*          HEADER          */
+.header {
+    background: url('media/fondo.jpg') no-repeat center center/cover;
+    width: 100%;
+    min-height: 100vh;
+    box-shadow: inset 120px 100px 250px #000, inset -120px -100px 250px #000;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+/* NAVBAR LOGO */
+.navbar img {
+    width: 132px;
+    margin-left: 50px;
+}
+
+/* NAVBAR BOTONES */
+.select {
+    border: 1px solid rgba(255, 255, 255, 0.658);
+    background-color: rgba(0, 0, 0, 0.527);
+    padding: 8px 24px;
+    padding-right: 3px;
+    border-radius: 3px;
+    color: white;
+}
+
+.select option {
+    background-color: rgb(34, 34, 34);
+    font-size: 15px;
+}
+
+.navbar .icon {
+    margin-right: 30px;
+}
+
+.navbar .icon svg {
+    fill: #fff;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+.submit {
+    background-color: #e50914;
+    font-size: 15px;
+    padding: 5px 17px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 1rem;
+    margin-right: 50px;
+}
+
+/* TEXTO CENTRAL */
+.texto-central {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.texto-central h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+
+.texto-central h3 {
+    text-align: center;
+    font-weight: 500;
+    color: white;
+}
+
+/* FORMULARIO */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formulario p {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding-top: 30px;
+}
+
+.input-form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.formulario input {
+    min-width: 450px;
+    height: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.514);
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.formulario input:focus {
+    border: 1.5px solid rgb(0, 119, 255);
+}
+
+.formulario .btn {
+    height: 60px;
+    background-color: #db0510;
+    width: 200px;
+    padding: 12px;
+    border-left: 1px solid #333;
+    border-radius: 1px;
+    font-size: 24px;
+    color: white;
+    margin-left: -6px;
+}
+
+.formulario .btn:hover {
+    background-color: #ff000d;
+}
+
+/*          FIN HEADER          */
+
+
+/* SECCION SERVICIOS */
+/* SECCION 1 */
+#section {
+    height: 480px;
+    width: 100%;
+    background-color: black;
+    border-top: 8px solid #222222;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textos {
+    color: white;
+    width: 45%;
+    padding: 20px;
+    margin-left: 120px;
+    padding: 0 3rem 0 0;
+}
+
+.textos h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.textos h2 {
+    font-size: 27px;
+    margin-top: 15px;
+}
+
+.media {
+    position: relative;
+    padding-right: 30px;
+}
+
+.media img {
+    width: 500px;
+    position: relative;
+    z-index: 2;
+}
+
+.media video {
+    position: absolute;
+    width: 365px;
+    top: 78px;
+    left: 64.5px;
+    z-index: 1;
+}
+
+/* SECCION 2 */
+.textos-2 {
+    order: 2;
+}
+
+.download {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    width: 70%;
+    height: 100px;
+    left: 12%;
+    bottom: 5%;
+    border: 2px solid #444;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.download img {
+    height: auto;
+    width: 60px;
+}
+
+.download .p1 {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-right: 80px;
+}
+
+.download .p2 {
+    color: #0071eb;
+}
+
+.media-2 {
+    margin-bottom: 50px;
+}
+
+/* SECCION 3 */
+.media .video2 {
+    width: 310px;
+    top: 40px;
+    left: 95px;
+}
+
+.media-3 {
+    margin-top: 50px;
+}
+
+/* SECCION 4 */
+.section-4 {
+    border-bottom: 8px solid #222222;
+}
+
+.textos-4 {
+    order: 2;
+}
+
+.media-4 {
+    order: 1;
+}
+
+/* FAQ */
+.faq {
+    padding: 70px 30px 30px 30px;
+    border-bottom: 8px solid #222;
+}
+
+.faq h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.preguntas {
+    max-width: 820px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.pregunta {
+    position: relative;
+    color: white;
+    background-color: #303030;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.pregunta svg {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    transform: rotate(45deg);
+    transition: all 0.2s ease;
+}
+
+.pregunta .enunciado {
+    display: block;
+    padding: 20px 30px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.pregunta .respuesta {
+    padding: 0 30px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.2s ease;
+}
+
+.pregunta input[type="checkbox"] {
+    display: none;
+}
+
+.pregunta input[type="checkbox"]:checked~.respuesta {
+    padding: 30px 30px;
+    max-height: 600px;
+    cursor: auto;
+}
+
+.pregunta input[type="checkbox"]:checked~.enunciado svg {
+    transform: rotate(0deg);
+}
+
+#pregunta-6 {
+    margin-bottom: 40px;
+}
+
+/* FOOTER */
+.footer {
+    height: 400px;
+    padding: 70px 45px;
+    margin: 0 auto;
+}
+
+.footer-wrapper {
+    padding-left: 50px;
+    min-width: 190px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.site-footer {
+    margin: 0 auto;
+    width: 90%;
+    color: #737373;
+}
+
+.site-footer p {
+    margin: 0 0 30px;
+    padding: 0; 
+}
+
+.site-footer a {
+    text-decoration: none;
+    color: #737373;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}
+
+.site-footer ul {
+    list-style: none;
+    column-count: 4;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-list li {
+    margin-bottom: 12px;
+    margin-left: 0;
+}
+
+
+.footer-list a {
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 14px;
+    max-width: 1000px;
+}
+
+.footer-list a:hover {
+    text-decoration: underline;
+}
+
+.select2 {
+    border: 1px solid #737373a8;
+    background-color: transparent;
+    padding: 18px 25px;
+    border-radius: 3px;
+    color: #737373;
+}
+
+.select2 option {
+    background-color: black;
+    font-size: 15px;
+    color: #a8a8a8;
+}
+
+.footer .icon2 {
+    margin-top: 30px;
+}
+
+.footer .icon2 svg {
+    fill: #737373;
+    position: absolute;
+    margin-top: 19px;
+    margin-left: 10px;
+}
+
+.netflix-arg p{
+    margin-top: 10px;
+}
